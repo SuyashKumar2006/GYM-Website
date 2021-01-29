@@ -1,0 +1,63 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left {
+    border: 2px solid red;
+    display: inline;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+    color: white;
+}
+
+#left {
+    text-size: 43px;
+}
+
+.mid {
+    display: block-inline;
+    border: 2px solid green;
+    width: 33%;
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    border: 2px solid violet;
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    color: white;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 23px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+    align-items: center;
+}
